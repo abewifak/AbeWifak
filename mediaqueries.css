@@ -1,0 +1,90 @@
+
+@media screen and (max-width: 1400px) {
+    #home {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-containers {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    #desktop-navbar {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+        z-index: 9999;
+    }
+    section {
+        padding: 50px 20px; 
+        height: auto;
+    }
+
+    /* Adjustments for the home section title */
+    #home .title {
+        display: flex;
+        font-size: 3em; 
+        padding: 30vh 0;
+        letter-spacing: normal;
+    }
+    #home .title_desktop {
+        display: none;
+    }
+
+    /* Adjustments for the about section */
+    #about h1 {
+        font-size: 2rem; 
+        margin-top: 5vh;
+        overflow: hidden;
+    }
+
+    #about p {
+        font-size: 1rem; 
+        margin-bottom: 5vh;
+    }
+
+    /* Adjustments for the projects section */
+    #projects img {
+        width: 100%; /* Make images fill the container width */
+        height: auto; /* Maintain aspect ratio */
+        margin-top: 5vh;
+        margin-bottom: 1rem;
+        border-radius: 20px;
+        border: white 2px solid;
+    }
+
+    #projects p {
+        font-size: 1rem; 
+        margin-bottom: 1rem;
+    }
+
+    #contact-me .contact_text-1 {
+        margin-top: 10vh;
+    }
+
+    /* Adjustments for the contact section */
+    #contact-me h1 {
+        font-size: 2rem; 
+    }
+
+    .contact-info-container {
+        font-size: 1rem; 
+    }
+
+    /* Adjustments for the footer */
+    footer {
+        height: auto;
+    }
+
+    footer p {
+        margin-bottom: 5vh;
+    }
+
+    /* Adjustments for the waves and curves */
+    .waves svg {
+        height: 40px; 
+    }
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abe Wifak's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&family=Sen:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="desktop-navbar">
+        <div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact-me">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <input type="checkbox" id="nav_checkbox" class="nav_checkbox">
+        <label for="nav_checkbox" class="nav_toggle">
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </label>
+            <div class="menu-links">
+                <li><a href="#" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact-me" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="home_text">
+            <h1 class="title_desktop">
+                <span>I</span>
+                <span>b</span>
+                <span>r</span>
+                <span>a</span>
+                <span>h</span>
+                <span>i</span>
+                <span>m</span>
+                <span> W</span>
+                <span>i</span>
+                <span>f</span>
+                <span>a</span>
+                <span>k</span>
+            </h1>
+        </div>
+
+        <div class="home_text">
+            <h1 class="title">
+                Ibrahim Wifak
+            </h1>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about_text">
+            <h1>
+                About Me
+            </h1>
+            <br>
+            <p>
+                Hello, thank you for taking the time to visit my portfolio!  
+                I am currently a junior at the University of Maryland: College Park
+                I have an Associate Degree in Information Systems
+                and I am currently majoring in Information Science.
+                I am very passionate about technology, fashion,
+                art, and psychology.
+            </p>
+            <br>
+            <p>
+                I love to spend my free time watching movies or anime, thrifting, making clothes, 
+                cooking, playing the guitar, playing basketball, playing video games, 
+                and hanging out with my friends and family. I am a big-time Letterboxd user 
+                and I plan to watch over 100 newly released movies this upcoming year as my 
+                New Year's resolution, some of my favorite movies include La Haine, 
+                The Grand Budapest Hotel, Interstellar, Fight Club, Eternal Sunshine of the spotless
+                mind and Spirited Away.
+            </p>
+        </div>
+
+        <div class="waves">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        
+    </section>
+
+    <section id="projects">
+        <div class="projects_image">
+            <img src="./assets/IMG_1095.JPG" alt="image of me walking">
+        </div>
+        <div class="projects_text">
+            <p>Click the buttons below to see some of my projects and resume, I have
+                personal projects and also school projects attached.</p>
+        </div>
+        <div class="button-container">
+            <button class="btn projects-btn">
+                Projects
+            </button>
+            <button class="btn resume-btn" 
+            onclick="window.open('./assets/Ibrahim_Wifak_Resume.pdf')">
+                Resume
+            </button>
+        </div>
+
+        <div class="waves">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <section id="contact-me">
+        <div class="contact_text">
+            <p class="contact_text-1">
+                Get In Touch
+            </p>
+            <h1 class="title_contact">
+                Contact Me
+            </h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <a href="mailto:abewifak@gmail.com"><img src="./assets/email.png" 
+                        alt="email icon"
+                     class="icon contact-icon email-icon"></a>
+                     <p><a href="mailto:abewifak@gmail.com">abewifak@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <a href='https://github.com/abewifak' target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/github.png"
+                         alt="LinkedIn icon"
+                     class="icon contact-icon"></a>
+                     <p><a href="https://github.com/abewifak" target="_blank" rel="noopener noreferrer">
+                        Github</a></p>
+                </div>
+            </div>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <a href="https://www.linkedin.com/in/ibrahim-wifak-760b79218/"
+                    target="_blank" rel="noopener noreferrer">
+                        <img src="./assets/linkedin.png"
+                         alt="LinkedIn icon"
+                     class="icon contact-icon"></a>
+                     <p><a href="https://www.linkedin.com/in/ibrahim-wifak-760b79218/"
+                        target="_blank" rel="noopener noreferrer">
+                        LinkedIn</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="waves">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            Copyright &#169; 2023 Ibrahim Wifak. All Rights Reserved.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
