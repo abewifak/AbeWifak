@@ -80,11 +80,12 @@
     }
 
     footer p {
-        margin-bottom: 5vh;
+        margin: 5vh 0;
     }
 
     /* Adjustments for the waves and curves */
-    .waves svg {
+    .waves {
         height: 40px; 
+        display: none;
     }
 }
